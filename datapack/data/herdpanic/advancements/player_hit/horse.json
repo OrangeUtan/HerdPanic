@@ -10,6 +10,6 @@
         }
     },
     "rewards": {
-        "function": "herdpanic:triggers/player_hit_horse"
+        "function": "herdpanic:triggers/player_hit/horse"
     }
 }

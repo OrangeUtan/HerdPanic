@@ -10,6 +10,6 @@
         }
     },
     "rewards": {
-        "function": "herdpanic:triggers/player_hit_donkey"
+        "function": "herdpanic:triggers/player_hit/donkey"
     }
 }

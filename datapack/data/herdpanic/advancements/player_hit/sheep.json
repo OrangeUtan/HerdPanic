@@ -10,6 +10,6 @@
         }
     },
     "rewards": {
-        "function": "herdpanic:triggers/player_hit_sheep"
+        "function": "herdpanic:triggers/player_hit/sheep"
     }
 }

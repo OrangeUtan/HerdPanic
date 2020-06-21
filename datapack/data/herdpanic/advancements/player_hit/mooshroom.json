@@ -10,6 +10,6 @@
         }
     },
     "rewards": {
-        "function": "herdpanic:triggers/player_hit_mooshroom"
+        "function": "herdpanic:triggers/player_hit/mooshroom"
     }
 }
