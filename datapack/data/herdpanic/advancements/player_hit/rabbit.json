@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:rabbit"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "herdpanic:triggers/player_hit_rabbit"
+    }
+}
