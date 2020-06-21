@@ -1,3 +1,3 @@
-execute at @e[type=fox,distance=..40,tag=!global.ignore,nbt={HurtTime:0s}] run function herdpanic:panic_mechanic/panic_mob
+execute at @e[type=fox,distance=..40,tag=!global.ignore,nbt={HurtTime:0s}] positioned ~ ~1.1 ~ run function herdpanic:panic_mechanic/panic_mob
 
 advancement revoke @s only herdpanic:player_hit/fox
