@@ -6,7 +6,7 @@
     "overrides":[
         {
             "predicate":{
-                "custom_model_data":7770000
+                "custom_model_data":7770200
             },
             "model":"item/herdpanic/invis_snowball"
         }
