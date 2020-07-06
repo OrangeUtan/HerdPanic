@@ -49,7 +49,7 @@ execute unless score #opt_panic_villager hpanicConfig matches -2147483648.. run 
 
 # Flag datapack as installed
 #define score_holder #installed_version Indicating which version is installed
-scoreboard players set #installed_version hpanicConfig 10100
+scoreboard players set #installed_version hpanicConfig 10103
 
 # Install message
 tellraw @a[tag=!global.ignore,tag=!global.ignore.gui] ["",{"text":"Installed ","color":"gold"},{"text":"HerdPanic","color":"red"},{"text":" datapack version ","color":"gold"},{"score":{"name":"#installed_version","objective":"hpanicConfig"},"color":"red"}]
