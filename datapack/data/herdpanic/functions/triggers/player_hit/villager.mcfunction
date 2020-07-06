@@ -1,3 +1,3 @@
 execute if score #opt_panic_villager hpanicConfig matches 1 at @e[type=villager,distance=..40,tag=!global.ignore,tag=!global.ignore.pos,nbt={HurtTime:0s}] positioned ~ ~2.3 ~ run function herdpanic:panic_mechanic/panic_mob
 
-advancement revoke @s only herdpanic:player_hit/villager
+advancement revoke @s only herdpanic:event/player_hit_entity/villager
