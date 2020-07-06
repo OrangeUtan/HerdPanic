@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "HerdPanic",
+        "description": "Hitting mob panics nearby mobs of same type",
+        "icon": {
+            "item": "minecraft:cow_spawn_egg"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:oran9eutan",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
