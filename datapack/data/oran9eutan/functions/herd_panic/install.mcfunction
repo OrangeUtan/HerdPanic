@@ -50,6 +50,3 @@ execute unless score #opt_panic_villager hpanicConfig matches -2147483648.. run 
 # Set version of installed version
 #define score_holder #installed_version Indicating which version is installed
 scoreboard players set #installed_version hpanicConfig 10104
-
-# Reset datapack advancement to show correctn version number
-advancement revoke @a only oran9eutan:herd_panic/herd_panic
