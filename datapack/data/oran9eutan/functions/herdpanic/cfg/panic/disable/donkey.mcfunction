@@ -1,5 +1,4 @@
 # Disables panic for donkeys
 
 scoreboard players set #opt_panic_donkey herdpanic.cfg 0
-
-tellraw @s [{"text":"Disabled ","color":"red"},{"text":"option \"Donkeys panic\"","color":"gold"}]
+function oran9eutan:herdpanic/cfg

@@ -1,5 +1,4 @@
 # Enables panic for cows
 
 scoreboard players set #opt_panic_cow herdpanic.cfg 1
-
-tellraw @s [{"text":"Enabled ","color":"green"},{"text":"option \"Cows panic\"","color":"gold"}]
+function oran9eutan:herdpanic/cfg
