@@ -1,0 +1,14 @@
+{
+    "name": "HerdPanic",
+    "author": "Oran9eUtan",
+    "description": "Hitting animals also panics their herd",
+    "resource_pack": {
+        "load": ["resourcepack"],
+        "pack_format": 7
+    },
+    "data_pack": {
+        "load": ["datapack"],
+        "pack_format": 7
+    },
+    "output": "build"
+}

@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:pig"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "oran9eutan:herdpanic/event/player_hit_entity/pig"
+    }
+}

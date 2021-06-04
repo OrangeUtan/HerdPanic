@@ -1,0 +1,20 @@
+{
+  "display": {
+    "title": [
+      { "text": "HerdPanic" },
+      { "text": " v1.1.4", "color": "yellow" }
+    ],
+    "description": "Hitting animals also panics their herd",
+    "icon": {
+      "item": "minecraft:cow_spawn_egg"
+    },
+    "announce_to_chat": false,
+    "show_toast": false
+  },
+  "parent": "global:oran9eutan",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

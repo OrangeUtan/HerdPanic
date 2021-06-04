@@ -1,0 +1,16 @@
+{
+    "extend": ["beet.json"],
+    "version": "1.1.4",
+    "pipeline": [
+        "beet.contrib.minify_json"
+    ],
+    "resource_pack": {
+        "zipped": true,
+        "name": "HerdPanic-resourcepack"
+    },
+    "data_pack": {
+        "zipped": true,
+        "name": "HerdPanic-datapack"
+    },
+    "output": "dist"
+}
